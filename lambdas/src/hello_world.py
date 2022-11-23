@@ -13,7 +13,7 @@ def lambda_handler(event, context):
         TableName=table_name
     )
 
-    response["teamMates"]="Hello Globant"
+    response["teamMates"]="Hello Sebastian"
 
     return {
         "statusCode": 200,

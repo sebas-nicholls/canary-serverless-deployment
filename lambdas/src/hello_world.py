@@ -15,7 +15,7 @@ def lambda_handler(event, context):
 
     response["teamMates"]="Hello Sebastian"
 
-    raise Exception("Need to raise exception")
+    #raise Exception("Need to raise exception")
 
     return {
         "statusCode": 200,

@@ -13,7 +13,7 @@ def lambda_handler(event, context):
         TableName=table_name
     )
 
-    response["teamMates"]="Hello Sebastian"
+    response["teamMates"]="Hello Zion"
 
     #raise Exception("Need to raise exception")
 
